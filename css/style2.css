@@ -1,0 +1,73 @@
+.card{
+    height: 550px;
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 280px;
+    background-color: rgba(237, 230, 212);
+}
+
+.lU{
+    font-weight: bolder;
+}
+
+.card-footer{
+    background-color: rgb(253, 227, 165); 
+}
+
+.card-header{
+    background-color: rgb(253, 227, 165); ;
+}
+
+h1{
+    font-family: 'RobotoCondensedL';
+    font-weight: bold;
+    font-stretch: wider;
+}
+
+.social_icon span{
+    font-size: 30px;
+    margin-left: 10px;
+    color:blue;
+    font-family: 'RobotoCondensedB';
+}    
+
+.social_icon span:hover{
+    color: #FFC312;
+    cursor: pointer;
+}
+
+/* .social_text{
+    font-size: 20;
+    color: blue;
+}
+
+.social_text span:hover{
+    color: #FFC312;
+    cursor: pointer;
+} */
+
+body {
+    background-image: url(../images/Art.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    /* background-color: rgba(19, 180, 255, 0.562); */
+}
+
+#submit{
+    width: 200px;
+    font-weight: bold;
+    font-family: 'RobotoCondensedB';
+    font-size: 20px;
+}
+
+
+@font-face {
+    font-family: 'RobotoCondensedB';
+    src: url(Fonts/RobotoCondensed-Bold.ttf);
+    font-family: 'RobotoCondensedI';
+    src: url(Fonts/RobotoCondensed-Italic.ttf);
+    font-family: 'RobotoCondensedL';
+    src: url(Fonts/RobotoCondensed-Light.ttf);
+    font-family: 'RobotoCondensedLI';
+    src: url(Fonts/RobotoCondensed-LightItalic.ttf);
+}

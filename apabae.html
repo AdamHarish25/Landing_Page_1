@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style> 
+#panel, #flip {
+  padding: 20px;
+  text-align: center;
+  background-color: #bbff00;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+  border: solid 1px #040500;
+}
+</style>
+
+</head>
+<body>
+<div id="flip">Flip panel up and down</div>
+<div id="panel">Here's the value</div>
+</body>
+
+<script> 
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+  });
+</script>
+
+</html>

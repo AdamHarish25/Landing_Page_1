@@ -1,0 +1,18 @@
+.card{
+    height: 550px;
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 280px;
+    background-color: rgb(42, 255, 70,0.5);
+}
+
+body{
+    background-image: url(../images/ForestFog.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.card-body{
+    padding-top: 140px;
+    background-color: rgba(172, 255, 47, 0.479);
+}

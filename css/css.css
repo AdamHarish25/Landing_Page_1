@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(../images/ForestFog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    height: 580px;
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 280px;
+    background-color: rgb(89, 180, 255);
+}
+
+h1{
+    font-family: 'RobotoCondensedL';
+    font-weight: bold;
+}
+
+.card-header{
+    background-color: rgb(253, 227, 165); 
+}
+
+.card-footer{
+    border: black 10px ;
+    border-radius: 25px;
+    background-color: green;
+}
+
+.sU{
+    font-weight: bolder;
+}
+
+.tes{
+    margin-top: 40px;
+}
+
+/* .tol{
+    margin-bottom: 0px;
+} */
+
+.tom{
+    width: 400px;
+    height: 60px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'RobotoCondensedB';
+    src: url(Fonts/RobotoCondensed-Bold.ttf);
+    font-family: 'RobotoCondensedI';
+    src: url(Fonts/RobotoCondensed-Italic.ttf);
+    font-family: 'RobotoCondensedL';
+    src: url(Fonts/RobotoCondensed-Light.ttf);
+    font-family: 'RobotoCondensedLI';
+    src: url(Fonts/RobotoCondensed-LightItalic.ttf);
+}

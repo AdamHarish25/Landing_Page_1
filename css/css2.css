@@ -1,0 +1,377 @@
+#bla {
+  font-family: "WsMedium";
+  font-weight: bold;
+}
+
+.dropdown-6 {
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+html {
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes apa {
+  0% {
+    width: 0%;
+    height: 1px;
+    border-radius: 0%;
+    opacity: 0%;
+  }
+  50% {
+    width: 100%;
+    height: 1%;
+    opacity: 50%;
+  }
+  100% {
+    width: 100%;
+    height: 80%;
+    opacity: 100%;
+    background: #333;
+    border-radius: 9px;
+    text-align: center;
+  }
+}
+
+@keyframes tAnimate {
+  0% {
+    content: "Adam";
+    opacity: 0;
+  }
+  15% {
+    content: "Adam";
+    color: darkred;
+    opacity: 1;
+  }
+  25% {
+    content: "Adam";
+    opacity: 0;
+  }
+  40% {
+    content: "a Programmer";
+    opacity: 0;
+  }
+  50% {
+    content: "a Programmer";
+    color: green;
+    opacity: 1;
+  }
+  60% {
+    content: "a Programmer";
+    opacity: 0;
+  }
+  70% {
+    content: "a Developer";
+    opacity: 0;
+  }
+  85% {
+    content: "a Developer";
+    color: grey;
+    opacity: 1;
+  }
+  100% {
+    content: "a Developer";
+    opacity: 0;
+  }
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@media only screen and (max-width: 3840px) {
+  #card2 {
+    width: 25rem;
+  }
+
+  #cardNy {
+    visibility: hidden;
+    width: 20rem;
+  }
+
+  #tololl {
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+
+  .HDBg {
+    z-index: -10;
+    background-size: cover;
+  }
+
+  h1.t1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  span#smkn::before {
+    animation: tAnimate infinite 7s;
+    padding-left: 15px;
+    content: none;
+  }
+  img#img {
+    max-width: 100%;
+  }
+  
+  .lolot {
+    flex-basis: 70%;
+    float: left;
+    /* order: 1; */
+  }
+  
+  .text {
+    padding-left: 20px;
+    font-size: 20;
+    color: white;
+  }
+  
+  #oll {
+    /* The image used */
+    background-image: url(../images/ForestFog.jpg);
+  
+    position: relative;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 2480px) {
+  /* .rot{
+  } */
+
+  #tololl {
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+
+  .HDBg {
+    z-index: -10;
+    background-size: cover;
+  }
+
+  #card2 {
+    width: 18rem;
+  }
+
+  #cardNy {
+    visibility: hidden;
+    width: 7rem;
+  }
+
+  h1.t1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  img#img {
+    height: 150px;
+    width: 270px;
+  }
+
+  span#smkn::before {
+    animation: tAnimate infinite 7s;
+    padding-left: 10px;
+    content: none;
+  }
+
+  .lol {
+    margin: 6px 0px 6px 10px;
+  }
+
+  .lol:hover {
+    cursor: pointer;
+    animation: apa 500ms ease-out forwards;
+    transform-origin: bottom left;
+  }
+
+  #navbarDropdown:hover {
+    color: white;
+  }
+
+  #loll:hover {
+    color: white;
+  }
+
+  img#img {
+    max-width: 100%;
+  }
+  
+  .lolot {
+    flex-basis: 70%;
+    float: left;
+    /* order: 1; */
+  }
+  
+  .text {
+    padding-left: 20px;
+    font-size: 20;
+    color: white;
+  }
+  
+  #oll {
+    /* The image used */
+    background-image: url(../images/ForestFog.jpg);
+  
+    position: relative;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  img#img {
+    max-width: 100%;
+  }
+  
+  .lolot {
+    flex-basis: 70%;
+    /* order: 1; */
+    float: none;
+    position: absolute;
+    top: 40px;
+    /* left: 140px; */
+    display: block;
+  }
+  
+  .text {
+    padding-left: 20px;
+    font-size: 10;
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    right: 40px;
+    text-align: center;
+  }
+  
+  #oll {
+    /* The image used */
+    background-image: url(../images/ForestFog.jpg);
+  
+    position: relative;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #tololl {
+    display: none;
+  }
+
+  #lot:hover {
+    color: white;
+  }
+
+  #card2 {
+    width: 18rem;
+    animation: none;
+  }
+
+  .cardNy {
+    display: none;
+  }
+
+  .lol {
+    transition: none;
+    animation: none;
+  }
+
+  .lol:hover {
+    transition: none;
+    animation: none;
+  }
+
+  #navbarDropdown:hover {
+    transition: none;
+    animation: none;
+  }
+
+  #loll:hover {
+    transition: none;
+    animation: none;
+  }
+}
+
+@font-face {
+  font-family: "RobotoCondensedB";
+  src: url(Fonts/RobotoCondensed-Bold.ttf);
+  font-family: "RobotoCondensedI";
+  src: url(Fonts/RobotoCondensed-Italic.ttf);
+  font-family: "RobotoCondensedL";
+  src: url(Fonts/RobotoCondensed-Light.ttf);
+  font-family: "RobotoCondensedLI";
+  src: url(Fonts/RobotoCondensed-LightItalic.ttf);
+  font-family: "WsMedium";
+  src: url(../Fonts/WorksansFont/WorkSans-Medium.ttf);
+}
